@@ -8,10 +8,10 @@ const App = () => {
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
-    make: "",
     model: "",
-    email: "",
-    phone: "",
+    carPrice: "",
+    cardInfo: "",
+    expiryDate: "",
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
 

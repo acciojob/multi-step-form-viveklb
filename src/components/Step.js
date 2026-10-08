@@ -2,16 +2,16 @@ import React from "react";
 
 const stepFields = {
   1: [
-    { id: "first-name", name: "firstName", label: "First name" },
-    { id: "last-name", name: "lastName", label: "Last name" },
+    { id: "first_name", name: "firstName", label: "First name" },
+    { id: "last_name", name: "lastName", label: "Last name" },
   ],
   2: [
-    { id: "vehicle-make", name: "make", label: "Make" },
-    { id: "vehicle-model", name: "model", label: "Model" },
+    { id: "model", name: "model", label: "Model" },
+    { id: "car_price", name: "carPrice", label: "Car price", type: "number" },
   ],
   3: [
-    { id: "contact-email", name: "email", label: "Email", type: "email" },
-    { id: "contact-phone", name: "phone", label: "Phone", type: "tel" },
+    { id: "card_info", name: "cardInfo", label: "Card information" },
+    { id: "expiry_date", name: "expiryDate", label: "Expiry date", type: "month" },
   ],
 };
 
